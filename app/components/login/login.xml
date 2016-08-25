@@ -1,0 +1,6 @@
+<StackLayout>
+    <Label text="LOGIN"></Label>
+    <TextField hint="Username" [(ngModel)]="login"></TextField>
+    <TextField hint="Password" secure="true" [(ngModel)]="password"></TextField>
+    <Button text="SUBMIT" (tap)="submit()"></Button>
+</StackLayout>
